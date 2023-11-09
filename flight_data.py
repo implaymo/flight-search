@@ -1,18 +1,22 @@
 from flight_search import FlightSearch
 
-
 class FlightData:
     # This class is responsible for structuring the flight data.
     def __init__(self):
 
-        # Flight data
+        self.city_codes = ["CDG", "BER", "NRT", "SYD", "SAW", "KUL", "LGA", "SFO", "CPT"]
+        self.city_data_list = []
+
+
+        # Flight data information
         self.flights = FlightSearch()
 
-        self.flight_data = self.flights.get_flight_data(city_from=input("City from? "),
-                                                        city_destination=input("City to? "))
-        self.cheapest_flight_info = self.flight_data["data"]
-        self.iata_info = self.cheapest_flight_info[0]["flyFrom"]
-        self.city_from = self.cheapest_flight_info[0]["cityFrom"]
-        self.city_to = self.cheapest_flight_info[0]["cityTo"]
-        self.price_flight = self.cheapest_flight_info[0]["price"]
-
+        for city in self.city_codes:
+            self.flight_data = self.flights.get_flight_data(city_from="LON", city_destination=city)
+            self.cheapest_flight_info = self.flight_data["data"]
+            city_data = {
+                "iata": self.cheapest_flight_info[0]["flyFrom"],
+                "city": self.cheapest_flight_info[0]["cityTo"],
+                "price": self.cheapest_flight_info[0]["price"],
+            }
+            self.city_data_list.append(city_data)
