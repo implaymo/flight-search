@@ -20,3 +20,4 @@ class FlightData:
                 "price": self.cheapest_flight_info[0]["price"],
             }
             self.city_data_list.append(city_data)
+
