@@ -1,6 +1,4 @@
-from flight_search import FlightSearch
+from data_manager import DataManager
 
-flights = FlightSearch()
-
-flight_data = flights.get_flight_data(city_from="LON", city_destination="PAR")
-print(flight_data)
+data_manager = DataManager()
+data_manager.post_spreadsheet()
