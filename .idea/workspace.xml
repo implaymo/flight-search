@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Created get_row_spreadsheet to get the info from spreadsheet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
       <change beforePath="$PROJECT_DIR$/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/notification_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/playm/PycharmProjects/flight-deals/flight-deals-start/main.py&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/playm/PycharmProjects/ISS-Notifier"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python.notification_manager">
+}]]></component>
+  <component name="RunManager" selected="Python.main ">
     <configuration name="data_manager" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="flight-deals-start" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,6 +170,7 @@
         <env name="auth_token" value="454ef20c69f558f0ee855c2d76b3a511" />
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="twilio_num" value="+19165029424" />
+        <env name="my_num" value="+351918576107" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -294,7 +292,103 @@
       <option name="project" value="LOCAL" />
       <updated>1699574160597</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619360577</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619360577</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619414730</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619414730</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619426366</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619426366</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619456649</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619456649</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619478660</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619478660</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619514929</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619514929</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619562033</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619562033</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619589907</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619589907</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619718918</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619718918</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619748252</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619748252</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619783004</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619783004</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699619943606</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699619943606</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,6 +407,7 @@
     <MESSAGE value="Made classes to work and add a new row on my spreadsheet" />
     <MESSAGE value="Improved project to post flight information about more cities" />
     <MESSAGE value="Created get_row_spreadsheet to get the info from spreadsheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created get_row_spreadsheet to get the info from spreadsheet" />
+    <MESSAGE value="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py." />
+    <option name="LAST_COMMIT_MESSAGE" value="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py." />
   </component>
 </project>
