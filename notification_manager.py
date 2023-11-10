@@ -1,5 +1,6 @@
 from twilio.rest import Client
 import os
+
 class NotificationManager:
     #This class is responsible for sending notifications with the deal flight details.
     account_sid = os.environ["account_sid"]
