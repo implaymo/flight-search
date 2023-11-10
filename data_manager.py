@@ -1,6 +1,12 @@
 import requests
 from flight_data import FlightData
 from notification_manager import NotificationManager
+from dotenv import load_dotenv
+
+def configure():
+    load_dotenv()
+configure()
+
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
     def __init__(self):

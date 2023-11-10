@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/notification_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
+        <env name="account_sid" value="AC4c1ba683112a15b1511a3733d8464c42" />
+        <env name="auth_token" value="454ef20c69f558f0ee855c2d76b3a511" />
+        <env name="my_num" value="+351918576107" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="twilio_num" value="+19165029424" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -119,10 +125,14 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
+        <env name="account_sid" value="AC4c1ba683112a15b1511a3733d8464c42" />
+        <env name="auth_token" value="454ef20c69f558f0ee855c2d76b3a511" />
+        <env name="my_num" value="+351918576107" />
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="SEARCH_API_ENDPOINT" value="https://api.tequila.kiwi.com/v2/search" />
         <env name="SEARCH_API_KEY" value="rjZlXWKPZ_TnFg70fkL82HF9LKXkb3eZ" />
         <env name="SHEETY_PUT_API_ENDPOINT" value="https://api.sheety.co/3864f9e32cb6490ca4e1118527c50e15/flightDeals/prices/2" />
+        <env name="twilio_num" value="+19165029424" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\playm\PycharmProjects\flight-deals\flight-deals-start" />
@@ -492,7 +502,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699620771227</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699620948253</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1699620948253</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699620991900</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1699620991900</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
