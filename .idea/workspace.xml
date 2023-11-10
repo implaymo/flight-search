@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Improved project to post flight information about more cities">
+    <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Created get_row_spreadsheet to get the info from spreadsheet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flight_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/notification_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.flight_data">
+  <component name="RunManager" selected="Python.notification_manager">
     <configuration name="data_manager" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="flight-deals-start" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,6 +164,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="notification_manager" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="flight-deals-start" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="account_sid" value="AC4c1ba683112a15b1511a3733d8464c42" />
+        <env name="auth_token" value="454ef20c69f558f0ee855c2d76b3a511" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="twilio_num" value="+19165029424" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notification_manager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -262,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699535086675</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created get_row_spreadsheet to get the info from spreadsheet">
+      <option name="closed" value="true" />
+      <created>1699574160597</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699574160597</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +312,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Made classes to work and add a new row on my spreadsheet" />
     <MESSAGE value="Improved project to post flight information about more cities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved project to post flight information about more cities" />
+    <MESSAGE value="Created get_row_spreadsheet to get the info from spreadsheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created get_row_spreadsheet to get the info from spreadsheet" />
   </component>
 </project>
