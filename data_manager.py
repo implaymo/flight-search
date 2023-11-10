@@ -4,8 +4,10 @@ from notification_manager import NotificationManager
 from dotenv import load_dotenv
 
 load_dotenv()
+
+
 class DataManager:
-    #This class is responsible for talking to the Google Sheet.
+    # This class is responsible for talking to the Google Sheet.
     def __init__(self):
         self.rows_data = []
 
@@ -15,7 +17,7 @@ class DataManager:
         self.notification_manager = NotificationManager()
 
     def get_row_spreadsheet(self):
-        """Compares prices from data with spreadsheet"""
+        """Gets data from spreadsheet and stores in self.rows_data list"""
 
         # Gets data from rows
         get_sheety_api = "https://api.sheety.co/3864f9e32cb6490ca4e1118527c50e15/flightDeals/prices"
@@ -34,32 +36,34 @@ class DataManager:
             }
             self.rows_data.append(rows_flights_info)
 
-    def data_flight_api(self):
-        # Gets new flight data from API and stores as data_prices tuple list
-        for row in range(len(self.flight_data.city_data_list)):
-            new_lowest_price = (self.flight_data.city_data_list[row]["price"],
-                                self.flight_data.city_data_list[row]["iata"],
-                                self.flight_data.city_data_list[row]["city"])
-            self.data_prices.append(new_lowest_price)
-
     def spreadsheet_data(self):
         # Gets flight from spreadsheet
         self.get_row_spreadsheet()
         for row in range(len(self.rows_data)):
-            sheet_flight_price = (self.rows_data[row]["price"],
-                                  self.rows_data[row]["iata"],
-                                  self.rows_data[row]["city"])
-            self.sheet_prices.append(sheet_flight_price)
+            sheet_flight_data = {
+                "price": self.rows_data[row]["price"],
+                "iata": self.rows_data[row]["iata"],
+                "city": self.rows_data[row]["city"],
+                                 }
+            self.sheet_prices.append(sheet_flight_data)
 
     def price_compare(self):
         """Gets price data from sheet and from flight api and compares it, in order to check which is lower"""
-        self.data_flight_api()
         self.spreadsheet_data()
-        for new_price, new_iata, new_city in self.data_prices:
-            for price, iata, city in self.sheet_prices:
-                if new_city == city and new_price < price:
-                    self.notification_manager.send_message(city)
-                    self.put_spreadsheet(city, new_iata, new_price)
+        for new_data in self.flight_data.city_data_list:
+            for sheet_data in self.sheet_prices:
+                if new_data["city"] == sheet_data["city"] and new_data["price"] < sheet_data["price"]:
+                    city_to = new_data["city"]
+                    iata = new_data["iata"]
+                    price = new_data["price"]
+                    date = new_data["date_local_departure"]
+                    time_departure = new_data["time_local_departure"]
+                    time_arrival = new_data["time_local_arrival"]
+
+                    message = (f"Cheaper tickets! To {city_to} for {price}€ "
+                               f"in {date} at {time_departure} with arrival at {time_arrival}")
+                    self.notification_manager.send_message(message)
+                    self.put_spreadsheet(city_to, iata, price)
 
     def put_spreadsheet(self, city, iata, price):
         """Edits row from spreadsheet"""

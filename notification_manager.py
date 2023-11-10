@@ -13,9 +13,9 @@ class NotificationManager:
         self.twilio_num = os.getenv("twilio_num")
         self.my_num = os.getenv("my_num")
 
-
-    def send_message(self, city):
+    def send_message(self, message):
         client = Client(self.account_sid, self.auth_token)
-        message = client.messages.create(body=f"These flights got cheaper!\n{city}", from_=self.twilio_num, to=self.my_num)
+        message = client.messages.create(body=message,
+                                         from_=self.twilio_num, to=self.my_num)
         print(message.status)
 
