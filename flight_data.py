@@ -6,7 +6,6 @@ class FlightData:
 
         self.city_codes = ["CDG", "BER", "NRT", "SYD", "SAW", "KUL", "LGA", "SFO", "CPT"]
         self.city_data_list = []
-
         # Flight data information
         self.flights = FlightSearch()
 

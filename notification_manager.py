@@ -2,9 +2,8 @@ from twilio.rest import Client
 import os
 from dotenv import load_dotenv
 
-def configure():
-    load_dotenv()
-configure()
+load_dotenv()
+
 
 class NotificationManager:
     #This class is responsible for sending notifications with the deal flight details.

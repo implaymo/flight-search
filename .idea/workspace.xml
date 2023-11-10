@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/notification_manager.py" afterDir="false" />
-    </list>
+    <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Finished notification_manager." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,11 +49,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="account_sid" value="AC4c1ba683112a15b1511a3733d8464c42" />
-        <env name="auth_token" value="454ef20c69f558f0ee855c2d76b3a511" />
-        <env name="my_num" value="+351918576107" />
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="twilio_num" value="+19165029424" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -125,14 +117,10 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="account_sid" value="AC4c1ba683112a15b1511a3733d8464c42" />
-        <env name="auth_token" value="454ef20c69f558f0ee855c2d76b3a511" />
-        <env name="my_num" value="+351918576107" />
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="SEARCH_API_ENDPOINT" value="https://api.tequila.kiwi.com/v2/search" />
         <env name="SEARCH_API_KEY" value="rjZlXWKPZ_TnFg70fkL82HF9LKXkb3eZ" />
         <env name="SHEETY_PUT_API_ENDPOINT" value="https://api.sheety.co/3864f9e32cb6490ca4e1118527c50e15/flightDeals/prices/2" />
-        <env name="twilio_num" value="+19165029424" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\playm\PycharmProjects\flight-deals\flight-deals-start" />
@@ -177,10 +165,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="account_sid" value="AC4c1ba683112a15b1511a3733d8464c42" />
-        <env name="auth_token" value="454ef20c69f558f0ee855c2d76b3a511" />
-        <env name="my_num" value="+351918576107" />
-        <env name="twilio_num" value="+19165029424" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -205,38 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699477428222</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1699478044210</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1699478044210</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1699486127429</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1699486127429</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1699486338221</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1699486338221</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1699486364837</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1699486364837</updated>
     </task>
     <task id="LOCAL-00005" summary="Initial commit">
       <option name="closed" value="true" />
@@ -518,7 +470,119 @@
       <option name="project" value="LOCAL" />
       <updated>1699620991900</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699643522494</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1699643522494</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699643529629</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1699643529629</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699644006996</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644006996</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699644016356</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644016356</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py.">
+      <option name="closed" value="true" />
+      <created>1699644417427</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644417427</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699644464063</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644464063</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699644562279</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644562279</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699644679085</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644679085</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699644701243</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644701243</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699644947086</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644947086</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699644965293</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1699644965294</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699645292830</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1699645292830</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699645324150</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1699645324150</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Finished notification_manager.">
+      <option name="closed" value="true" />
+      <created>1699645432669</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1699645432669</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,6 +602,7 @@
     <MESSAGE value="Improved project to post flight information about more cities" />
     <MESSAGE value="Created get_row_spreadsheet to get the info from spreadsheet" />
     <MESSAGE value="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py." />
-    <option name="LAST_COMMIT_MESSAGE" value="Data spreadsheet updates correctly after checking new flights data.&#10;Biggest changes on data_manager.py." />
+    <MESSAGE value="Finished notification_manager." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished notification_manager." />
   </component>
 </project>

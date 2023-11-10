@@ -1,10 +1,7 @@
 from data_manager import DataManager
 from dotenv import load_dotenv
 
-def configure():
-    load_dotenv()
-configure()
-
+load_dotenv()
 
 data_manager = DataManager()
 
