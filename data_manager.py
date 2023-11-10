@@ -1,5 +1,6 @@
 import requests
 from flight_data import FlightData
+from notification_manager import NotificationManager
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
     def __init__(self):
@@ -8,6 +9,7 @@ class DataManager:
         self.sheet_prices = []
         self.data_prices = []
         self.flight_data = FlightData()
+        self.notification_manager = NotificationManager()
 
     def get_row_spreadsheet(self):
         """Compares prices from data with spreadsheet"""
@@ -53,6 +55,7 @@ class DataManager:
         for new_price, new_iata, new_city in self.data_prices:
             for price, iata, city in self.sheet_prices:
                 if new_city == city and new_price < price:
+                    self.notification_manager.send_message(city)
                     self.put_spreadsheet(city, new_iata, new_price)
 
     def put_spreadsheet(self, city, iata, price):
