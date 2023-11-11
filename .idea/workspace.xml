@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Finished notification_manager.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flight_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/notification_manager.py" afterDir="false" />
-    </list>
+    <list default="true" id="24585c2a-52c5-44e1-bb5e-77ce7be32cb3" name="Changes" comment="Finished notification_manager." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
